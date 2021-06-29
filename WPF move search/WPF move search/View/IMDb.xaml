@@ -1,0 +1,123 @@
+﻿<Window x:Class="WPF_move_search.View.IMDb"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_move_search.View"
+        mc:Ignorable="d"
+        Title="IMDb" Height="450" Width="800"  Background="Black">
+
+    <Window.Resources>
+
+        <Style x:Key="searchListItemStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Orange"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Width" Value="auto"/>
+        </Style>
+        
+        <Style x:Key="selectListItemStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="white"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Width" Value="auto"/>
+        </Style>
+
+
+        <DataTemplate x:Key="searchListTemplate">
+            <StackPanel >
+                <TextBlock Style="{StaticResource searchListItemStyle}" Text="{Binding Title}"/>
+                <TextBlock Style="{StaticResource searchListItemStyle}" Text="{Binding Year}"/>
+                <TextBlock Style="{StaticResource searchListItemStyle}" Text="{Binding Type}"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="selectedListTemplate">
+            <StackPanel >
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Title}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Year}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Runtime}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Country}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Director}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Language}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Released}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding Type}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding imdbRating}"/>
+                <TextBlock Style="{StaticResource selectListItemStyle}" Text="{Binding imdbVotes}"/>
+                
+            </StackPanel>
+        </DataTemplate>
+
+    </Window.Resources>
+    
+    
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+
+            
+            <TextBox Width="auto"
+                     Margin="25"
+                     Text="{Binding MovieTitle}"
+                     >
+            </TextBox>
+            
+            <Button Width="auto"
+                    Margin="25"
+                    Grid.Column="1"
+                    Background="Orange"
+                    FontSize="15"
+                    FontWeight="Black"
+                    Command="{Binding SearchCommand}">
+                Search
+            </Button>
+
+
+        <ListBox x:Name="movieList" 
+                 Grid.Row="1"
+                 Background="Black"
+                 SelectedItem="{Binding SelectedMovie}"
+                 ItemTemplate="{StaticResource searchListTemplate}"
+                 ItemsSource="{Binding AllMovie[0]}"
+                                  
+                 >
+            
+        </ListBox>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Image>
+                <Image.Source>
+                    <PriorityBinding>
+                        <Binding Path="MovieImage" IsAsync="True"/>
+                    </PriorityBinding>
+                </Image.Source>
+            </Image>
+
+            <ListBox      Grid.Column="1" 
+                          Grid.RowSpan="2"
+                          Background="Black"
+                          ItemsSource="{Binding SearchSelectedMovie}"
+                          ItemTemplate="{StaticResource selectedListTemplate}"
+                         >
+                
+            </ListBox>
+            
+        </Grid>
+    </Grid>
+</Window>

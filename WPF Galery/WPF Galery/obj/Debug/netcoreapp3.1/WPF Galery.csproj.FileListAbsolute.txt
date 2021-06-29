@@ -1,0 +1,24 @@
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\WPF Galery.exe
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\WPF Galery.deps.json
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\WPF Galery.runtimeconfig.json
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\WPF Galery.runtimeconfig.dev.json
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\WPF Galery.dll
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\WPF Galery.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.csprojAssemblyReference.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\App.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery_MarkupCompile.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery_MarkupCompile.lref
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.g.resources
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.AssemblyInfoInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.AssemblyInfo.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.dll
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.genruntimeconfig.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.dll
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.Shell.dll
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.csproj.CoreCompileInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\WPF Galery.csproj.CopyComplete
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\BigPhotoWindows.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Galery\WPF Galery\obj\Debug\netcoreapp3.1\BigPhotoWindows.baml

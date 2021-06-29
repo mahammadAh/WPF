@@ -1,0 +1,88 @@
+﻿<Window x:Class="WPF_Galery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Galery"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <ListBox Grid.Row="0" x:Name="imageFolderListBox" 
+                     MouseDoubleClick="imageFolderListBox_MouseDoubleClick"
+                     Background="#0A0606">
+                <ListBox.ItemTemplate >
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal"   >
+                            <TextBlock TextWrapping="Wrap"
+                                       FontSize="12"
+                                       Foreground="White"
+                                       Text="{Binding Title}"
+                                         />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Grid Grid.Row="1" Background="#0A0606">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Button DockPanel.Dock="Left"
+                        Width="80"                
+                        Margin="8"
+                        Grid.Column="0"
+                        Background="#FF9214"
+                       
+                        Click="Button_Click">Add</Button>
+                <Button DockPanel.Dock="Right"
+                        Width="80"                
+                        Margin="8"
+                        Grid.Column="1"
+                        Background="#FF9214"
+                        Click="Button_Click_1">Remove</Button>
+            </Grid>
+        </Grid>
+
+        <ListBox Grid.Column="1"
+                 x:Name="imageListBox"
+                 MouseDoubleClick="imageListBox_MouseDoubleClick"
+                 Background="#0A0606">
+            <ListBox.ItemTemplate >
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="50" Width="50" Source="{Binding Photo}" />
+                        <StackPanel Orientation="Vertical"  >
+                            <TextBlock TextWrapping="Wrap" 
+                                        FontSize="12"
+                                       Foreground="White"
+                                       Text="{Binding Title}"/>
+                            <TextBlock TextWrapping="Wrap"  
+                                        FontSize="12"
+                                       Foreground="White"
+                                       Text="{Binding Size}"/>
+                            <TextBlock  TextWrapping="Wrap"
+                                         FontSize="12"
+                                       Foreground="White"
+                                        Text="{Binding Date}"/>
+                        </StackPanel>
+                        
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

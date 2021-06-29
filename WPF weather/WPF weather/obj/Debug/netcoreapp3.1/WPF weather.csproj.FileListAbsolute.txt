@@ -1,0 +1,19 @@
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\bin\Debug\netcoreapp3.1\WPF weather.exe
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\bin\Debug\netcoreapp3.1\WPF weather.deps.json
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\bin\Debug\netcoreapp3.1\WPF weather.runtimeconfig.json
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\bin\Debug\netcoreapp3.1\WPF weather.runtimeconfig.dev.json
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\bin\Debug\netcoreapp3.1\WPF weather.dll
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\bin\Debug\netcoreapp3.1\WPF weather.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.csprojAssemblyReference.cache
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\App.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather_MarkupCompile.cache
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather_MarkupCompile.lref
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.g.resources
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.csproj.CoreCompileInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.AssemblyInfoInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.AssemblyInfo.cs
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.dll
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF weather\WPF weather\obj\Debug\netcoreapp3.1\WPF weather.genruntimeconfig.cache

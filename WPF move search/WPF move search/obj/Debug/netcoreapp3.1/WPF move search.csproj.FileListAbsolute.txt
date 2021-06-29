@@ -1,0 +1,19 @@
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\bin\Debug\netcoreapp3.1\WPF move search.exe
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\bin\Debug\netcoreapp3.1\WPF move search.deps.json
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\bin\Debug\netcoreapp3.1\WPF move search.runtimeconfig.json
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\bin\Debug\netcoreapp3.1\WPF move search.runtimeconfig.dev.json
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\bin\Debug\netcoreapp3.1\WPF move search.dll
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\bin\Debug\netcoreapp3.1\WPF move search.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.csprojAssemblyReference.cache
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\View\IMDb.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\App.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search_MarkupCompile.cache
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search_MarkupCompile.lref
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\View\IMDb.baml
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.g.resources
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.csproj.CoreCompileInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.AssemblyInfoInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.AssemblyInfo.cs
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.dll
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF move search\WPF move search\obj\Debug\netcoreapp3.1\WPF move search.genruntimeconfig.cache

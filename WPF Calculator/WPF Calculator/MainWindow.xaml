@@ -1,0 +1,96 @@
+﻿<Window x:Class="WPF_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#a1a9b5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+    
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" >
+            <WrapPanel>
+                <Button Width="20" Background="#a1a9b5">⏸</Button>
+                <Label>Обычный</Label>
+                <Button Width="20" Background="#a1a9b5">↗</Button>
+            </WrapPanel>
+            <RichTextBox Height="100" Background="#a1a9b5" ></RichTextBox>
+            <WrapPanel>
+                <Button Width="30" Background="#a1a9b5">MC</Button>
+                <Button Width="30" Background="#a1a9b5">MR</Button>
+                <Button Width="30" Background="#a1a9b5">M+</Button>
+                <Button Width="30" Background="#a1a9b5">M-</Button>
+                <Button Width="30" Background="#a1a9b5">MS</Button>
+                
+            </WrapPanel>
+        </StackPanel>
+
+        <DockPanel Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" >
+            <WrapPanel DockPanel.Dock="Top">
+                <Button Width="80" Background="#a1a9b5">Журнал</Button>
+                <Button Width="80" Background="#a1a9b5">Память</Button>
+            </WrapPanel>
+
+            <WrapPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right">
+                <Button Width="20" Background="#a1a9b5" >🗑</Button>
+    
+            </WrapPanel>
+            
+            <ListBox  Background="#a1a9b5" ></ListBox>
+        </DockPanel>
+
+        <Grid  Grid.Row="1" Grid.Column="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Grid.Column="0">%</Button>
+            <Button Grid.Row="0" Grid.Column="1">CE</Button>
+            <Button Grid.Row="0" Grid.Column="2">C</Button>
+            <Button Grid.Row="0" Grid.Column="3">Del</Button>
+            <Button Grid.Row="1" Grid.Column="0">1/x</Button>
+            <Button Grid.Row="1" Grid.Column="1">x^2</Button>
+            <Button Grid.Row="1" Grid.Column="2">√x</Button>
+            <Button Grid.Row="1" Grid.Column="3">/</Button>
+            <Button Grid.Row="2" Grid.Column="0"  Background="White">7</Button>
+            <Button Grid.Row="2" Grid.Column="1"  Background="White">8</Button>
+            <Button Grid.Row="2" Grid.Column="2"  Background="White">9</Button>
+            <Button Grid.Row="2" Grid.Column="3">*</Button>
+            <Button Grid.Row="3" Grid.Column="0"  Background="White">4</Button>
+            <Button Grid.Row="3" Grid.Column="1"  Background="White">5</Button>
+            <Button Grid.Row="3" Grid.Column="2"  Background="White">6</Button>
+            <Button Grid.Row="3" Grid.Column="3">-</Button>
+            <Button Grid.Row="4" Grid.Column="0"  Background="White">1</Button>
+            <Button Grid.Row="4" Grid.Column="1"  Background="White">2</Button>
+            <Button Grid.Row="4" Grid.Column="2"  Background="White">3</Button>
+            <Button Grid.Row="4" Grid.Column="3">+</Button>
+            <Button Grid.Row="5" Grid.Column="0"  Background="White">+/-</Button>
+            <Button Grid.Row="5" Grid.Column="1"  Background="White">0</Button>
+            <Button Grid.Row="5" Grid.Column="2"  Background="White">,</Button>
+            <Button Grid.Row="5" Grid.Column="3" Background="#9badc9">=</Button>
+            
+        </Grid>
+    </Grid>
+</Window>

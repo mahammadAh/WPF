@@ -1,0 +1,19 @@
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.exe
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.deps.json
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.runtimeconfig.json
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.runtimeconfig.dev.json
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.dll
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.csprojAssemblyReference.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\App.g.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator_MarkupCompile.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator_MarkupCompile.lref
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.g.resources
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.csproj.CoreCompileInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.AssemblyInfoInputs.cache
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.AssemblyInfo.cs
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.dll
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.pdb
+D:\STEP\Разработка ПО\Visual studio\WPF Calculator\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.genruntimeconfig.cache
